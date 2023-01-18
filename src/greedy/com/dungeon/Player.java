@@ -2,8 +2,8 @@ package greedy.com.dungeon;
 //플레이어의 체력과 데미지를 관리
 public class Player {
 	
-	private int health = 100; 			// 최초 체력
-	private int damage = 10; 			// 최초 데미지
+	static int health = 100; 			// 최초 체력
+	static int damage = 10; 			// 최초 데미지
 	
 	
 	public void upgradeHealth() {

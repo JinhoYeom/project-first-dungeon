@@ -14,6 +14,7 @@ public class Store {
 	public void storeMenu() {
 		while(true) {
 			System.out.println("========== 강화 상점 =============");
+			System.out.println("현재 보유 골드 : " + gold.towngold);
 			System.out.println("1. hp 강화(" + hpgold + "gold 필요)");
 			System.out.println("2. dmg 강화(" + dmggold + "gold 필요)");
 			System.out.println("3. 마을로 돌아가기");
